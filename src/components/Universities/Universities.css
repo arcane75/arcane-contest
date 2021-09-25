@@ -1,0 +1,13 @@
+.university-list{
+    background-color: rgba(8, 8, 8, 0.877);
+    text-align: center;
+    line-height: 50px;
+}
+.university-list input{
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: rgb(12, 117, 209);
+    font-size:20px;
+    font-weight: bold;
+}
