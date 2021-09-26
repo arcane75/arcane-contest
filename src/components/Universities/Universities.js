@@ -6,8 +6,11 @@ const Universities = () => {
             <div className="university-list">
                 <input
                     type="text"
-                    
                     placeholder="Search University" />
+            </div>
+
+            <div>
+                
             </div>
         </>
     );
