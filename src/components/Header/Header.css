@@ -19,6 +19,9 @@
     font-family: monospace;
     font-size: 40px;
 }
+.header h1, h2{
+    color: rgb(226, 212, 18);
+}
 .header .budget{
     text-align: center;
     margin-left: 250px;

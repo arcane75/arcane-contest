@@ -9,3 +9,13 @@
     width:200px;
     height: 200px;
 }
+
+.btn-regular{
+    background-color: rgba(238, 204, 13, 0.541);
+    width: 150px;
+    height: 25px;
+    color: rgb(2, 18, 27);
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
