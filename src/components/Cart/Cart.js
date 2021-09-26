@@ -7,17 +7,16 @@ const Cart = (props) => {
     const { cart } = props;
 
     let grandTotal = 0;
+
     const totalReducer = (previous, university) => previous + university.teamfee;
     grandTotal = cart.reduce(totalReducer, 0);
 
+    // store participated university name
     let add = [];
-
     for (const university of cart) {
-
         add += university.name + " ";
-        
-
     }
+
     return (
         <div>
             <div className="cart-style">
@@ -30,7 +29,7 @@ const Cart = (props) => {
             <div className="added-participate">
                 <h3> Added Participate </h3>
                 <div className="participate">
-                    <h4> { add } </h4>
+                    <h4> {add} </h4>
                 </div>
             </div>
 

@@ -26,12 +26,11 @@ const Universities = () => {
         <>
             <div className="university-list">
                 <input
-
                     type="text"
                     placeholder="Search University ..."
-                > 
-                </input> 
-                <FontAwesomeIcon className="search-icon" icon={faSearch} /> 
+                >
+                </input>
+                <FontAwesomeIcon className="search-icon" icon={faSearch} />
             </div>
 
             <div className="universities-container">
