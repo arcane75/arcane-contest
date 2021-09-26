@@ -1,7 +1,7 @@
 import React from 'react';
 import './University.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalculator } from '@fortawesome/free-solid-svg-icons';
+import { faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 
 const University = (props) => {
     const { name, address, vc, img, type, founded, motto, teamfee } = props.university;
@@ -19,7 +19,7 @@ const University = (props) => {
             <button
                 onClick={() => props.handleAddToCart(props.university)}
                 className="btn-regular"
-            ><FontAwesomeIcon icon={faCalculator} /> Participate</button>
+            ><FontAwesomeIcon icon={faPeopleArrows} /> Participate</button>
         </div>
     );
 };
