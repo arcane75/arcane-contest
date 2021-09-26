@@ -4,13 +4,13 @@ import './University.css';
 const University = (props) => {
     const {name, address, vc, img, type, founded, motto} = props.university;
     return (
-        <div>
+        <div className="university-style">
             <img src={img} alt="" />
             <h5>{name}</h5>
-            <p>address: {address}</p>
-            <p>vc: {vc}</p>
-            <p>type: {type}</p>
-            <p> founded: {founded}</p>
+            <p>Address: {address}</p>
+            <p>VC: {vc}</p>
+            <p>Type: {type}</p>
+            <p> Founded: {founded}</p>
             <p>motto: {motto}</p>
         </div>
     );

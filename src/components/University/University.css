@@ -1,0 +1,11 @@
+.university-style{
+    border: 2px solid lightslategray;
+    border-radius:5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.university-style img{
+    width:200px;
+    height: 200px;
+}

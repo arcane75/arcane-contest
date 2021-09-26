@@ -30,6 +30,10 @@ const Universities = () => {
                         </University> )
                     }
                 </div>
+
+                <div className="cart-container">
+
+                </div>
             </div>
         </>
     );

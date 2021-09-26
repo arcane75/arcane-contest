@@ -2,6 +2,7 @@
     background-color: rgba(8, 8, 8, 0.877);
     text-align: center;
     line-height: 50px;
+    margin-bottom: 20px;
 }
 .university-list input{
     width: 50%;
@@ -10,4 +11,14 @@
     color: rgb(12, 117, 209);
     font-size:20px;
     font-weight: bold;
+}
+.universities-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 20px;
+}
+.university-container{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
 }
