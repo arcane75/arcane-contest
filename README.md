@@ -5,5 +5,7 @@
 ## About this Project
 
 “*” This is `Inter University Programming Contest` Participate Website.
+
 “*” University team can participate through this site by pay team fee.
+
 “*” This site is developed by using reactjs.
