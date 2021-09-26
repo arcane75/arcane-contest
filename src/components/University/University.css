@@ -9,7 +9,10 @@
     width:200px;
     height: 200px;
 }
-
+.university-style:hover{
+    background-image: url(./body.jpg);
+    border: 2px solid skyblue;
+}
 .btn-regular{
     background-color: rgba(238, 204, 13, 0.541);
     width: 150px;
