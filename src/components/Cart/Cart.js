@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Cart.css';
 
@@ -14,7 +16,7 @@ const Cart = (props) => {
 
     return (
         <div className="cart-style">
-            <h3>Team Participate Summary</h3>
+            <h3><FontAwesomeIcon icon = {faPeopleArrows} /> Team Participate Summary</h3>
             <h5>Team Participate: {props.cart.length}</h5>
             <p>Team Fee: {"4000"}</p>
             <p>Total Fee Collected: {grandTotal}</p>

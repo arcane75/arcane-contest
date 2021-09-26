@@ -4,6 +4,10 @@
     margin-left: 10px;
     padding-bottom: 5px;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.university-style h3{
+    font-size:20px;
 }
 .university-style img{
     width:200px;

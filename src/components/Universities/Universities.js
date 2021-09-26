@@ -1,7 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import University from '../University/University';
 import './Universities.css';
+
 
 const Universities = () => {
     const [universities, setUniversities] = useState([]);
@@ -22,25 +26,29 @@ const Universities = () => {
         <>
             <div className="university-list">
                 <input
+
                     type="text"
-                    placeholder="Search University ..." />
+                    placeholder="Search University ..."
+                > 
+                </input> 
+                <FontAwesomeIcon className="search-icon" icon={faSearch} /> 
             </div>
 
             <div className="universities-container">
                 <div className="university-container">
                     {
-                        universities.map( university => <University
-                        key = { university.eiin}
-                        university = {university}
-                        handleAddToCart={handleAddToCart}
+                        universities.map(university => <University
+                            key={university.eiin}
+                            university={university}
+                            handleAddToCart={handleAddToCart}
                         >
-                        </University> )
+                        </University>)
                     }
                 </div>
 
                 <div className="cart-container">
-                <Cart cart={cart} ></Cart>
-            </div>
+                    <Cart cart={cart} ></Cart>
+                </div>
             </div>
         </>
     );
