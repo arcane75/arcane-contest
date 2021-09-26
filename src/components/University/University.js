@@ -7,6 +7,7 @@ const University = (props) => {
     const { name, address, vc, img, type, founded, motto, teamfee } = props.university;
     return (
         <div className="university-style">
+            
             <img src={img} alt="" />
             <h3>{name}</h3>
             <p>Address: {address}</p>
